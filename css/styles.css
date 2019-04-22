@@ -1,0 +1,56 @@
+/** CSS */
+
+.tbl {
+    background-color: #DDD;
+    border-collapse: collapse;
+    /* margin-bottom:40px; */
+}
+
+.tbl th{
+    padding: 6px 20px;
+    border: solid 1px  white;
+    border-bottom: solid 3px white;
+    
+    text-align: left;
+}
+
+/* tblの枠線を白*/
+.tbl td{
+    padding: 3px 20px;	
+    border: solid 1px white;    
+    text-align: left;
+}
+
+.ac1 {
+    border: solid 1.5px white;
+    width: 200px;
+    background-color: #CCDFCC;
+    margin: 0;
+    padding: 4px 4px;
+    
+}
+
+.bit_table {
+    cursor:pointer;
+}
+
+.idx {
+    /* border: solid 1.5px pink; */
+    margin-right: 10px;
+}
+
+.arrow {
+    /* background-color: pink; */
+    font-weight: bold;
+    position: relative;
+    left :60px;
+    
+    /* position: absolute; right:10; */ 
+}
+
+/* .accordion1 {text-align: center;} */
+.accordion {list-style: none;} 
+
+/* .accordion1 p{cursor: pointer; padding: 10px;} */
+/* .accordion {background: #CCDFCC;} */
+/* .accordion1 .inner li{padding: 10px 0;} */
